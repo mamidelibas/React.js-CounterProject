@@ -4,20 +4,9 @@ import { useDispatch } from "react-redux";
 export default function CounterButtons(props) {
   const dispatch = useDispatch();
 
-  // SAYFA BAŞLANGICINDA
-  //   useEffect(() => {
-  //     alert("Sayfa Yüklendi");
-  //   }, []);
-
-  // SAYAÇ HER DEĞİŞTİĞİNDE
-  //   useEffect(() => {
-  //     alert("Sayaç Değişti");
-  //   }, [counter]);
-
   return (
     <div className="w-full h-screen flex flex-col justify-center bg-gray-200 items-center">
       <div className=" shadow-2xl mt-5 bg-gray-950 px-72 py-16 flex flex-col gap-5 items-center justify-center  ">
-        {/* <h2 className="text-xl">Counter Page</h2> */}
         <b className="text-white text-2xl">
           <b
             style={{

@@ -6,7 +6,6 @@ export default function Counter() {
 
   return (
     <>
-      {/* <b>SAYAÇ: {counterValue}</b> */}
       <CounterButtons counterValue={counterValue} />
     </>
   );
